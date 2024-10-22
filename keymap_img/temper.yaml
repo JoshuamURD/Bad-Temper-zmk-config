@@ -18,13 +18,13 @@ layers:
     - V
     - K
     - H
-    - {t: ',', s: <}
-    - {t: ., s: '>'}
-    - /
+    - {t: ',', s: ;}
+    - {t: ., s: ':'}
+    - {t: '?', s: '!'}
   - - ⌘
     - num
-    - {t: ⇧, s: ⇪}
     - SPACE
+    - ENTER
     - nav
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
   qwerty:
@@ -82,7 +82,7 @@ layers:
     - {t: ▽, type: trans}
     - '0'
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {t: '''', s: '"'}
   nav:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -95,7 +95,7 @@ layers:
     - ↹
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
   - - {t: ⇧, h: sticky}
-    - {t: ⌃, h: sticky}
+    - '&ctrl_td'
     - {t: ⎇, h: sticky}
     - {t: ⌘, h: sticky}
     - ↹
@@ -114,7 +114,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+  - - CAPS
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -157,3 +157,6 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
+combos:
+- p: [34, 35]
+  k: Ctl+ BACKSPACE
